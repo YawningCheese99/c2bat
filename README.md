@@ -1,7 +1,7 @@
 # c2bat
 Compile c code to windows batch files.
 
-To use, extract c2bat.zip. Modify test.c, run build.sh, and then run final.bat with windows command prompt.
+To use, extract c2bat.zip. Modify test.c, run build.sh, and then run final.bat with windows command prompt. You also need mem_init.bat in the same directory as final.bat.
 
 For test.c, you must include "std.h" at the top of the file. No standard libraries are included. Use puti(int) to print an integer. The main function must begin with ENTRY (defined in std.h). See the provided test.c for an example.
 
